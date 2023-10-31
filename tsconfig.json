@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    //show places where types aren't written
+    "noImplicitAny": true,
+    "module": "ESNext",
+    //in what specification will be compiled
+    "target": "ES5",
+    "jsx": "react-jsx",
+    //compilator works with not only ts, and js files
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    //allow use import modules instead of require
+    "esModuleInterop": true,
+    //allow use default import without '* as'
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
