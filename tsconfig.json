@@ -11,6 +11,9 @@
     "allowJs": true,
     "moduleResolution": "node",
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     //allow use import modules instead of require
     "esModuleInterop": true,
     //allow use default import without '* as'
