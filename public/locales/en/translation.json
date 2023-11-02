@@ -1,5 +1,8 @@
 {
   "language": "Русский",
   "main-link": "Main",
-  "about-link": "About us"
+  "about-link": "About us",
+  "Page is not found": "Page is not found",
+  "error": "Something went wrong...",
+  "refresh-page": "Refresh page"
 }

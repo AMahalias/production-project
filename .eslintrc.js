@@ -37,6 +37,7 @@ module.exports = {
       "react/react-in-jsx-scope": "off",
       "react/jsx-uses-react": "off",
       "no-unused-vars": "warn",
-      "i18next/no-literal-string": ['error', { markupOnly: true }]
+      "i18next/no-literal-string": ['error', { markupOnly: true }],
+      "max-len": ['error', { ignoreComments: true }]
     }
 }

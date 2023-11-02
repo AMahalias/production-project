@@ -1,7 +1,11 @@
 {
+  "": "",
+  "Page is not found": "Page is not found",
   "about-link": "",
   "about-page": "",
+  "error": "error",
   "language": "",
   "main-link": "",
-  "main-page": ""
+  "main-page": "",
+  "refresh-page": "refresh-page"
 }
