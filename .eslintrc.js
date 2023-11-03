@@ -16,10 +16,14 @@ module.exports = {
                 "node": true
             },
             "files": [
-                ".eslintrc.{js,cjs}"
+                ".eslintrc.{js,cjs}",
+                "**/src/**/*.test.{ts,tsx}"
             ],
             "parserOptions": {
                 "sourceType": "script"
+            },
+            "rules": {
+              "i18next/no-literal-string": "off",
             }
         }
     ],
@@ -37,7 +41,13 @@ module.exports = {
       "react/react-in-jsx-scope": "off",
       "react/jsx-uses-react": "off",
       "no-unused-vars": "warn",
-      "i18next/no-literal-string": ['error', { markupOnly: true }],
-      "max-len": ['error', { ignoreComments: true }]
-    }
-}
+      "i18next/no-literal-string": ['error', {
+        markupOnly: true,
+        ignoreAttribute: ['data-testid']
+      }],
+      "max-len": ['error', { ignoreComments: true, code: 100 }]
+    },
+  globals: {
+    __IS_DEV__: true,
+  }
+};
