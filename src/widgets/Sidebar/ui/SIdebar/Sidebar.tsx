@@ -1,7 +1,7 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import classes from './Sidebar.module.scss';
 import { useState } from 'react';
-import { Button } from 'shared/ui/Button';
+import { Button } from 'shared/ui/Button/Button';
 import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
 import { LangSwitcher } from 'widgets/LangSwitcher'
 import { useTranslation } from 'react-i18next'
