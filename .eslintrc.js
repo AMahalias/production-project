@@ -17,13 +17,14 @@ module.exports = {
             },
             "files": [
                 ".eslintrc.{js,cjs}",
-                "**/src/**/*.test.{ts,tsx}"
+                "**/src/**/*.{test,stories}.{ts,tsx}"
             ],
             "parserOptions": {
                 "sourceType": "script"
             },
             "rules": {
               "i18next/no-literal-string": "off",
+              "max-len": "off"
             }
         }
     ],
@@ -35,7 +36,8 @@ module.exports = {
     "plugins": [
         "react",
         "@typescript-eslint",
-        "i18next"
+        "i18next",
+        "react-hooks",
     ],
     "rules": {
       "react/react-in-jsx-scope": "off",
@@ -45,7 +47,9 @@ module.exports = {
         markupOnly: true,
         ignoreAttribute: ['data-testid', 'to']
       }],
-      "max-len": ['error', { ignoreComments: true, code: 100 }]
+      "max-len": ['error', { ignoreComments: true, code: 100 }],
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "error",
     },
   globals: {
     __IS_DEV__: true,
