@@ -2,7 +2,8 @@ module.exports = {
     "env": {
         "browser": true,
         "es2021": true,
-        "jest": true
+        "jest": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -51,6 +52,7 @@ module.exports = {
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "error",
       "no-params-reassign": "off",
+      '@typescript-eslint/no-var-requires': 0,
     },
   globals: {
     __IS_DEV__: true,
