@@ -8,12 +8,10 @@ export const Counter = () => {
   const counterValue = useSelector(getCounterValue);
 
   const increment = () => {
-    console.log('Increment clicked');
     dispatch(counterActions.increment());
   }
 
   const decrement = () => {
-    console.log('Decrement clicked');
     dispatch(counterActions.decrement());
   }
 

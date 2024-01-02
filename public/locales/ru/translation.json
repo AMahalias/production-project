@@ -7,5 +7,9 @@
   "refresh-page": "Обновить страницу",
   "toggle": "Развернуть",
   "short-lang": "EN",
-  "Login": "Войти"
+  "Login": "Войти",
+  "Enter username": "Введите имя пользователя",
+  "Enter password": "Введите пароль",
+  "AuthForm": "Форма авторизации",
+  "Logout": "Выйти"
 }

@@ -1,6 +1,11 @@
 {
   "": "",
+  "Auth": "Auth",
+  "AuthForm": "AuthForm",
+  "Enter password": "Enter password",
+  "Enter username": "Enter username",
   "Login": "Login",
+  "Logout": "Logout",
   "Page is not found": "Page is not found",
   "about-link": "",
   "about-page": "",
