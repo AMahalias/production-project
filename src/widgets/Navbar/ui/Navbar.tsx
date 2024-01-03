@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { useCallback, useState } from 'react';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { LoginModal } from 'features/AuthByUsername';
-import { useDispatch, useSelector } from 'react-redux'
-import { getUserAuthData, userActions } from 'entities/User'
+import { useDispatch, useSelector } from 'react-redux';
+import { getUserAuthData, userActions } from 'entities/User';
 
 interface NavbarProps {
   className?: string;
@@ -52,10 +52,10 @@ export const Navbar = ({ className }: NavbarProps) => {
       >
         {t('Login')}
       </Button>
-      <LoginModal
+      {isAuthModal && <LoginModal
         isOpen={isAuthModal}
         onClose={onCloseModal}
-      />
+      />}
     </div>
   );
 };

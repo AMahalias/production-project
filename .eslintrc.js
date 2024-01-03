@@ -46,7 +46,7 @@ module.exports = {
       "no-unused-vars": "warn",
       "i18next/no-literal-string": ['error', {
         markupOnly: true,
-        ignoreAttribute: ['data-testid', 'to']
+        ignoreAttribute: true,
       }],
       "max-len": ['error', { ignoreComments: true, code: 120 }],
       "react-hooks/rules-of-hooks": "error",
