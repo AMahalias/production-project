@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Anastasiia",
+    "lastname": "Sovaleva",
+    "age": 28,
+    "currency": "UA",
+    "country": "Ukraine",
+    "city": "Zaporizhzhia",
+    "username": "admin",
+    "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/non_2x/beautiful-woman-avatar-character-icon-free-vector.jpg"
+  }
 }

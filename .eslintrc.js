@@ -44,9 +44,10 @@ module.exports = {
       "react/react-in-jsx-scope": "off",
       "react/jsx-uses-react": "off",
       "no-unused-vars": "warn",
+      "react/display-name": "warn",
       "i18next/no-literal-string": ['error', {
         markupOnly: true,
-        ignoreAttribute: [''],
+        ignoreAttribute: ['*', 'data-testid'],
       }],
       "max-len": ['error', { ignoreComments: true, code: 120 }],
       "react-hooks/rules-of-hooks": "error",

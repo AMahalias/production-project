@@ -1,6 +1,5 @@
-import { StateSchema } from 'app/providers/StoreProvider'
-import { AsyncThunkAction } from '@reduxjs/toolkit'
-import { loginByUsername } from 'features/AuthByUsername/model/services/loginByUsername/loginByUsername'
+import { StateSchema } from 'app/providers/StoreProvider';
+import { AsyncThunkAction } from '@reduxjs/toolkit';
 
 type ActionCreatorType<Return, Arg, RejectedValue> =
   (arg: Arg) => AsyncThunkAction<Return, Arg, { rejectValue: RejectedValue }>;
