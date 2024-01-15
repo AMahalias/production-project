@@ -54,8 +54,11 @@ module.exports = {
       "react-hooks/exhaustive-deps": "error",
       "no-params-reassign": "off",
       '@typescript-eslint/no-var-requires': 0,
+      "@typescript-eslint/ban-ts-comment": 'warn',
+      'no-undef': 'off',
     },
   globals: {
     __IS_DEV__: true,
+    __API__: true,
   }
 };

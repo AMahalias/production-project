@@ -1,6 +1,6 @@
-import { classNames } from 'shared/lib/classNames/classNames';
+import { classNames, Mods } from 'shared/lib/classNames/classNames'
 import classes from './Modal.module.scss';
-import { ReactNode, MouseEvent, useState, useRef, useEffect, useCallback } from 'react';
+import { ReactNode, MouseEvent, useState, useRef, useEffect, useCallback, MutableRefObject } from 'react'
 import { Portal } from 'shared/ui/Portal/Portal';
 import { useTheme } from 'app/providers/ThemeProvider'
 
@@ -18,8 +18,8 @@ export const Modal = ({ className, children, isOpen, onClose, lazy }: ModalProps
   const [isClosing, setIsClosing] = useState(false);
   const { theme } = useTheme();
   const [isMounted, setIsMounted] = useState(false);
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
-  const mods = {
+  const timerRef = useRef() as MutableRefObject<ReturnType<typeof setTimeout>>;
+  const mods: Mods = {
     [classes.opened]: isOpen,
     [classes.closed]: isClosing,
   };

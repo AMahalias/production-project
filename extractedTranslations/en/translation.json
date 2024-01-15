@@ -8,12 +8,16 @@
   "Logout": "Logout",
   "Page is not found": "Page is not found",
   "Profile page": "",
+  "Your name": "Your name",
+  "Your surname": "Your surname",
   "about-link": "",
   "about-page": "",
+  "button": "button",
   "error": "error",
   "language": "",
   "main-link": "",
   "main-page": "",
   "refresh-page": "refresh-page",
+  "title": "title",
   "toggle": "toggle"
 }
