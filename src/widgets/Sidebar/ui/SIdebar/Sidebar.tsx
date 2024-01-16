@@ -4,11 +4,7 @@ import { memo, useState } from 'react'
 import { Button, ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
 import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
 import { LangSwitcher } from 'widgets/LangSwitcher';
-import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { useTranslation } from 'react-i18next';
-import { RoutePath } from 'shared/config/routeConfig/routeConfig';
-import AboutIcon from 'shared/assets/icons/about-20-20.svg';
-import MainIcon from 'shared/assets/icons/main-20-20.svg';
 import { SidebarItemsList } from '../../model/items'
 import { SidebarItem } from '../SidebarItem/SidebarItem';
 

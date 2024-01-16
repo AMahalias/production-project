@@ -1,6 +1,14 @@
 {
   "title": "Profile",
-  "button": "Edit",
+  "button-edit": "Edit",
   "Your name": "Your name",
-  "Your surname": "Your surname"
+  "Your surname": "Your surname",
+  "error-title": "There is an error during profile loading",
+  "error-text": "Try to update page",
+  "button-cancel": "Cancel",
+  "button-save": "Save",
+  "Your age": "Your age",
+  "Your city": "Your city",
+  "Your username": "Your username",
+  "Your avatar": "Your avatar"
 }

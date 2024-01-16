@@ -1,6 +1,15 @@
 {
+  "Your age": "Your age",
+  "Your avatar": "Your avatar",
+  "Your city": "Your city",
   "Your name": "",
   "Your surname": "",
+  "Your username": "Your username",
   "button": "",
+  "button-cancel": "button-cancel",
+  "button-edit": "",
+  "button-save": "button-save",
+  "error-text": "error-text",
+  "error-title": "error-title",
   "title": ""
 }

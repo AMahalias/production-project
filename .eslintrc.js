@@ -47,7 +47,7 @@ module.exports = {
       "react/display-name": "warn",
       "i18next/no-literal-string": ['error', {
         markupOnly: true,
-        ignoreAttribute: ['*', 'data-testid'],
+        ignoreAttribute: ['*', 'data-testid', 'alt'],
       }],
       "max-len": ['error', { ignoreComments: true, code: 120 }],
       "react-hooks/rules-of-hooks": "error",

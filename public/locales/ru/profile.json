@@ -1,6 +1,14 @@
 {
   "title": "Профиль",
-  "button": "Редактировать",
+  "button-edit": "Редактировать",
   "Your name": "Ваше имя",
-  "Your surname": "Ваша фамилия"
+  "Your surname": "Ваша фамилия",
+  "error-title": "Произошла ошибка при загрузке профиля",
+  "error-text": "Попробуйте перезагрузить страницу",
+  "button-cancel": "Отменить",
+  "button-save": "Сохранить",
+  "Your age": "Ваш возраст",
+  "Your city": "Ваш город",
+  "Your username": "Ваш никнейм",
+  "Your avatar": "Ваш аватар"
 }
