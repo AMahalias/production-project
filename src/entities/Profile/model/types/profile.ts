@@ -1,6 +1,14 @@
 import { Currency } from 'entities/Currency/model/types/currency'
 import { Country } from 'entities/Country/model/types/country'
 
+export enum ValidateProfileError {
+  INCORRECT_USER_DATA = 'Incorrect user data',
+  INCORRECT_AGE = 'Incorrect age',
+  INCORRECT_CITY = 'Incorrect country',
+  NO_DATA = 'No user data',
+  SERVER_ERROR = 'Server error',
+}
+
 export interface Profile {
   first?: string;
   lastname?: string;
@@ -18,4 +26,5 @@ export interface ProfileSchema {
   isLoading: boolean;
   error?: string;
   readonly: boolean;
+  validateErrors?: ValidateProfileError[];
 }

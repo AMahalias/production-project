@@ -10,5 +10,10 @@
   "Your age": "Ваш возраст",
   "Your city": "Ваш город",
   "Your username": "Ваш никнейм",
-  "Your avatar": "Ваш аватар"
+  "Your avatar": "Ваш аватар",
+  "Server error": "Ошибка сервера",
+  "Incorrect age": "Неправильный возраст",
+  "Incorrect user data": "Неправильные данные пользователя",
+  "Incorrect city": "Неправильный город",
+  "No user data": "Нет данных о пользователе"
 }

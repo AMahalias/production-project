@@ -1,4 +1,13 @@
 {
+  "${ValidateProfileError": {
+    "SERVER_ERROR}": "${ValidateProfileError.SERVER_ERROR}"
+  },
+  "Incorrect age": "Incorrect age",
+  "Incorrect city": "Incorrect city",
+  "Incorrect user data": "Incorrect user data",
+  "No user data": "No user data",
+  "Server error": "Server error",
+  "ValidateProfileError": "ValidateProfileError",
   "Your age": "Your age",
   "Your avatar": "Your avatar",
   "Your city": "Your city",
