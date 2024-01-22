@@ -1,5 +1,6 @@
 {
   "": "",
+  "Article is not found": "Article is not found",
   "Auth": "Auth",
   "AuthForm": "AuthForm",
   "Choose country": "Choose country",
@@ -16,6 +17,9 @@
   "Page is not found": "Page is not found",
   "Profile page": "",
   "Server error": "Server error",
+  "There is a problem ": "",
+  "There is a problem during": "",
+  "There is a problem during loading": "There is a problem during loading",
   "Your age": "Your age",
   "Your avatar": "Your avatar",
   "Your city": "Your city",
