@@ -13,7 +13,7 @@ const App = () => {
   const mounted = useSelector(getUserMounted);
 
   useEffect(() => {
-    dispatch(userActions.initAuthData);
+    dispatch(userActions.initAuthData());
   }, [dispatch])
 
   return (
