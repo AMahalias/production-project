@@ -16,5 +16,7 @@
   "Logout": "Выйти",
   "Choose currency": "Выберите валюту",
   "Choose country": "Выберите страну",
-  "Comments are empty": "Comments are empty"
+  "Comments are empty": "Комментарии отсутствуют",
+  "Enter comment text": "Введите текст комментария",
+  "Send": "Отправить"
 }

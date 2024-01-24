@@ -19,7 +19,9 @@
       "img": "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
       "views": 1022,
       "createdAt": "20.06.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "121313",
+      "id": "bSx4HHS"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "121313",
+      "id": "w0-M9M1"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "45353",
+      "id": "LGfknKF"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "hello",
+      "id": "evR0t8O"
     }
   ],
   "users": [
@@ -114,18 +140,32 @@
       "id": "2",
       "username": "user",
       "password": "123",
-      "role":  "USER",
+      "role": "USER",
       "avatar": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Frussian%2Fnews-64191284&psig=AOvVaw294ZcxzY44GtA43zXRkDmm&ust=1706120445032000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjc-4uQ9IMDFQAAAAAdAAAAABAI"
     }
   ],
-  "profile": {
-    "first": "Anastasiia",
-    "lastname": "Sovaleva",
-    "age": 23,
-    "currency": "UA",
-    "country": "Ukraine",
-    "city": "Zaporizhzhia",
-    "username": "admin",
-    "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/non_2x/beautiful-woman-avatar-character-icon-free-vector.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Anastasiia",
+      "lastname": "Sovaleva",
+      "age": 23,
+      "currency": "UA",
+      "country": "Ukraine",
+      "city": "Zaporizhzhia",
+      "username": "admin",
+      "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/non_2x/beautiful-woman-avatar-character-icon-free-vector.jpg"
+    },
+    {
+      "id": "2",
+      "first": "Andrey",
+      "lastname": "Sovalev",
+      "age": 29,
+      "currency": "UA",
+      "country": "Ukraine",
+      "city": "Zaporizhzhia",
+      "username": "sovalev",
+      "avatar": "https://static.vecteezy.com/system/resources/previews/024/183/502/original/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg"
+    }
+  ]
 }

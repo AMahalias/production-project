@@ -2,7 +2,6 @@ import { updateProfileData } from './updateProfileData';
 import { TestAsyncThunk } from 'shared/lib/tests/TestAsyncThunk/TestAsyncThunk'
 import { Country } from 'entities/Country'
 import { Currency } from 'entities/Currency'
-import exp from 'constants'
 import { ValidateProfileError } from 'entities/Profile'
 
 const data = {
@@ -13,6 +12,7 @@ const data = {
   username: 'admin',
   city: 'City',
   currency: Currency.UAH,
+  id: '1',
 }
 
 describe('updateProfileData.test', () => {

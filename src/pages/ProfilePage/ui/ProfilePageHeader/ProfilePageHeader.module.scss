@@ -2,8 +2,11 @@
   display: flex;
   margin-bottom: 20px;
 
-  .btn {
+  .btnsWrapper {
     margin-left: auto;
+  }
+
+  .btn {
     margin-right: 10px;
   }
 }
