@@ -53,7 +53,7 @@ export const ArticleListItem = memo(({ className, article, view }: ArticleListIt
           {types}
           <img src={article.img} className={classes.img} alt={article.title} />
           {textBlock && (
-            <ArticleTextBlockComponent block={textBlock} />
+            <ArticleTextBlockComponent block={textBlock} className={classes.textBlock} />
           )}
           <div className={classes.footer}>
             <Button onClick={onOpenArticle}>
